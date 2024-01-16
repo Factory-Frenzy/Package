@@ -1,15 +1,14 @@
 {
   "name": "com.factoryfrenzy.package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Factory Frenzy Package",
   "description": "This package contains Factory Frenzy prefabs",
   "unity": "2023.3",
   "unityRelease": "15f1",
-  "documentationUrl": "https://github.com/Factory-Frenzy/basic-rv-toolkit",
-  "changelogUrl": "https://github.com/Factory-Frenzy/basic-rv-toolkit/CHANGELOG.md",
-  "licensesUrl": "https://github.com/Factory-Frenzy/basic-rv-toolkit/LICENSE.md",
-  "dependencies": {},
+  "documentationUrl": "https://github.com/Factory-Frenzy/Package",
+  "changelogUrl": "https://github.com/Factory-Frenzy/Package/CHANGELOG.md",
+  "licensesUrl": "https://github.com/Factory-Frenzy/Package/LICENSE.md",
   "repository": {
-    "url": "https://github.com/Factory-Frenzy/basic-rv-toolkit"
+    "url": "https://github.com/Factory-Frenzy/Package"
   }
 }
