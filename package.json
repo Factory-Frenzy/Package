@@ -1,6 +1,6 @@
 {
   "name": "com.factoryfrenzy.package",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "displayName": "Factory Frenzy Package",
   "description": "This package contains Factory Frenzy prefabs",
   "unity": "2023.3",
