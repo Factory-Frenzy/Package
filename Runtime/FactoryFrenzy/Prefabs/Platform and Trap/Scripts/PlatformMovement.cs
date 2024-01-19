@@ -1,8 +1,4 @@
-using Codice.CM.Common;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using static UnityEngine.GraphicsBuffer;
 
 public class PlatformMovement : MonoBehaviour
 {
@@ -14,7 +10,7 @@ public class PlatformMovement : MonoBehaviour
     void Start()
     {
         Active = true;
-        // Démarre en se dirigeant vers le point A
+        // Dï¿½marre en se dirigeant vers le point A
         target = EndPointA;
     }
     void Update()
@@ -29,11 +25,11 @@ public class PlatformMovement : MonoBehaviour
         {
             // Calcule la nouvelle position
             Vector3 newPosition = Vector3.MoveTowards(transform.position, target.position, Speed * Time.deltaTime);
-            // Déplace le GameObject vers la nouvelle position
+            // Dï¿½place le GameObject vers la nouvelle position
             transform.position = newPosition;
         }
 
-        // Vérifie si le GameObject a atteint la cible
+        // Vï¿½rifie si le GameObject a atteint la cible
         if (Vector3.Distance(transform.position, target.position) < 0.001f)
         {
             // Alterne la cible
